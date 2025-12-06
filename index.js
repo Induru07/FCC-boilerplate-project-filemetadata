@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 });
 
 // 2. Configure Multer
-// We configure it to save uploaded files to an 'uploads' directory.
+// Configure it to save uploaded files to an 'uploads' directory.
 // This handles the parsing of the multipart/form-data.
 const upload = multer({ dest: 'uploads/' });
 
